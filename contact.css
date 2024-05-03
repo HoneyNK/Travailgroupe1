@@ -10,3 +10,11 @@
     justify-content: center;
     background-color: antiquewhite;
 }
+.container form{
+    width: 670px;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    background:rgba(255, green, blue, alpha) 
+}
