@@ -8,5 +8,67 @@
 .container{
     display: flex;
     justify-content: center;
-    background-color: antiquewhite;
+    background-color:#e3f2fd;
+}
+.container form{
+    width: 670px;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    background:rgba(177, 194, 207, 0.74);
+    backdrop-filter: 30px;
+    flex-wrap: wrap;
+}
+.container form h1{
+    color: black;
+    font-weight: 700;
+    line-height: 2;
+    margin-top: 20px;
+    width: 500px;
+    text-align: center;
+}
+.container form input{
+    width: 300px;
+    height: 50px;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    margin-bottom: 10px;
+    background: none;
+    border-bottom: 2px solid white;
+    color:black ;
+
+}
+.container form input::placeholder{
+    color: black;
+}
+.Prénom
+.Adressmail{
+    margin-left: 30px;
+}
+.container form h4{
+    
+    font-weight: 300;
+    width: 600px;
+    margin-top: 20px;
+
+}
+.container form textarea{
+    background: #e3f2fd;
+    border: none;
+    font-weight: 200;
+    font-size: 20px;
+    padding: 10px;
+    outline: none;
+    min-height: 90px;
+    max-height: 90px;
+    min-width: 620px;
+    max-width: 620px;
+
+}
+.logoSize {
+    width: 80px;
+    height: 100px;
 }
