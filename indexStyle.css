@@ -1,21 +1,50 @@
 .logoSize {
-    width: 80px;
-    height: 100px;
+  width: 80px;
+  height: 100px;
 }
 .match {
-    width: 95%;
-    height: 50%;
-    display: flex;
-    justify-content: center;
+  width: 95%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
 }
 
 .justEven {
-    display: flex;
-    justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
 .enteteLi {
-    list-style-type: none;
-    border: solid 2px;
-    border-radius: 8%;
-    padding: 3px;
+  list-style-type: none;
+  border: solid 2px;
+  border-radius: 8%;
+  padding: 3px;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+.bgGreen {
+    background-color: green;
+}
+.bgBlue {
+    background-color: blue;
+}
+.bgRed {
+    background-color: red;
+}
+.bgYellow {
+    background-color: yellow;
+}
+.bgLBlue {
+    background-color: lightblue;
+}
+.bgGray {
+    background-color: gray;
+}
+.borderGroup {
+    border: solid 3px;
+    border-radius: 5%;
+}
+body {
+    background-color: rgb(136, 43, 43);
 }
